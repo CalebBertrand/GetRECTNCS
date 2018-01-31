@@ -1,0 +1,65 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Sound Stuff</title>
+  <style type="text/css">
+  /*@import url('https://fonts.googleapis.com/css?family=Supermercado+One');*/
+  	body {
+  		padding: none;
+  		margin: none;
+  		background-color: black;
+  		/*overflow: hidden;*/
+  	}
+  	html {
+  		padding: none;
+  		margin: none;
+  	}
+  	#center {
+  		width: 100%;
+
+  		position: absolute;
+  		top: 0;
+  		left: 0;
+
+  		display: flex;
+  		align-items: center;
+  		justify-content: center;
+  	}
+  	h1 {
+  		color: black;
+  		font-size: 35px;
+  		z-index: 2;
+  		/*font-family: 'Supermercado One', cursive;*/
+  		width: 300px;
+  		text-align: center;
+  	}
+    input {
+      z-index: 2;
+      background-color: white;
+    }
+  </style>
+  <!-- <link rel="stylesheet" href="css/styles.css"> -->
+  <script type="text/javascript" src="LIBS/p5.js"></script>
+  <script type="text/javascript" src="LIBS/p5.dom.min.js"></script>
+  <script type="text/javascript" src="LIBS/p5.sound.js"></script>
+
+
+  <!-- HERE ARE THE VERSIONS. COMMENT ALL BUT THE ONE YOU WANT   -->
+  <!-- <script type="text/javascript" src="VERSIONS/1.js"></script> --> <!-- VERSION ONE -->
+  <!-- <script type="text/javascript" src="VERSIONS/2.js"></script> --> <!-- VERSION TWO -->
+  <script type="text/javascript" src="VERSIONS/3.js"></script> <!-- VERSION THREE -->
+</head>
+
+<body>
+	<div id="center">
+		<!-- <h1>Canaan's Productions...</h1> HERE'S YOUR NAME -->
+	</div>
+
+	<script type="text/javascript">
+		document.getElementById("center").style.height = window.innerHeight + "px";
+	</script>
+</body>
+</html>
