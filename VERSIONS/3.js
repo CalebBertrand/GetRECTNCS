@@ -54,7 +54,7 @@ var particles = [];
 
 function preload() {
   soundFormats('mp3', 'ogg');
-  mySound = loadSound('SONGS/song8.mp3'); // <------- THIS IS THE ONE FOR THE SONG
+  mySound = loadSound('SONGS/home.mp3'); // <------- THIS IS THE ONE FOR THE SONG
   fft = new p5.FFT();
   colorMode(HSL);
   // img = loadImage('img.jpg'); // <----- CHANGE THIS ONE. DON"T TOUCH ANYTHING ELSE
