@@ -11,7 +11,7 @@ var spikeLength = 1024 / 9;
 var attraction = 400;
 var rotateSpeed = 500; //Bigger, slower
 var inverted = -1; // -1 = inverted, 1 = normal
-var zoom = 1;
+var zoom = 1.2;
 
 var particle = function(X, Y, C) {
 	this.startPos = createVector(X, Y);
@@ -76,7 +76,7 @@ function setup() {
 
   newInverted = createSlider(-1,1,inverted, 2);
   newZoom = createSlider(0,2,zoom, 0.02);
-  newSpikeLength = createSlider(2, 75, spikeLength);
+  newSpikeLength = createSlider(2, 9, spikeLength);
   newSpikeLength.style('width', '320px');
 }
 
